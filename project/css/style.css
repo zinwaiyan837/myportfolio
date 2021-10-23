@@ -108,16 +108,17 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    
+   
 }
 .nav-link{
     padding: 0.5rem 1.3rem !important;
     color: #0CBFAE !important;
+   
 }
 .nav-link.current-nav{
     border: 2px solid #0CBFAE; ;
     border-radius:10rem;
-    
+   
     padding: 0.5rem 1.3rem;
 }
 
@@ -128,7 +129,8 @@ header{
     box-shadow: 0 0 5px #665f5f15;
     color: #0CBFAE;
     animation: toShow 1s linear ;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
+  
 }
 @keyframes toShow{
     from{
@@ -244,12 +246,12 @@ header{
 ::marker{
     color: #F57F17;
 }
-.about-btn1{
+/* .about-btn1{
     box-shadow: 0 10px 10px -5px #5ce6d8;
 }
 .about-btn2{
     box-shadow: 0 10px 10px -5px #da8f4e;
-}
+} */
 
              /* my skills section */
 
@@ -562,8 +564,8 @@ input:focus{
     .social-v{
         position: absolute;
         width: 400px;
-        left: 210px;
-        bottom: 150px;
+        left: 420px;
+        bottom: 250px;
        
         display: flex;
         justify-content: space-between;
@@ -665,7 +667,7 @@ input:focus{
     .social-v{
         width: 20px;
         position: absolute;
-        
+       
         left: 5px;
         bottom: 300px;
         display: flex;
@@ -686,16 +688,19 @@ input:focus{
         background-color: #161D26;
         box-shadow: 0 0 5px #00000015;
     }
+    
     .menu-icon{
         color: #0CBFAE !important;
     }
     .nav-link{
         color: #0CBFAE  !important;
+        
         padding: 15px 20px;
         margin-bottom:10px ;
         background-color:#161D26 ;
         box-shadow: 0 0 5px #00000015;
     }
+    
     .navbar-nav{
         padding-top: 20px;
     }
